@@ -18,6 +18,7 @@ and the Cloud.
 ## Achievements 
 * Winner - NasCon'23 Cyber Security Quiz Competition
 * Winner - CyberFest CTF '23
+* Bronze Medalist - ICPC '22
 
 ## Expertise
 **Penetration Testing | Cloud Computing | Digital Forensics | Information Security | Network Security | Malware Analysis | Backend Development | Reverse Engineering | Cryptography**
