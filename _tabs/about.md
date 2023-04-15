@@ -15,6 +15,10 @@ and the Cloud.
 * SAP Cybersecurity Engineering Virtual Internship
 * Google IT Support (In Progress)
 
+## Achievements 
+* Winner - NasCon'23 Cyber Security Quiz Competition
+* Winner - CyberFest CTF '23
+
 ## Expertise
 **Penetration Testing | Cloud Computing | Digital Forensics | Information Security | Network Security | Malware Analysis | Backend Development | Reverse Engineering | Cryptography**
 
@@ -27,9 +31,18 @@ and the Cloud.
 * Training students new to the field of cyber security for red teaming practices
 * Giving Hands-on experience with various penetration testing tools with accordance to the cyber kill chain
 
+### **Vice Coordinator CTF** at ***NaSCon '23*** 
+* Coordinating a national-level cyber security event
+* Designing and deploying challenges of various categories
+
+### **CTF Organizer** at ***ISYWSC '22***
+* Organizing a national-level cyber security event
+* Designing and deploying challenges of various categories
+
 ### **Cyber Defense and Network Security Intern** at ***THINCSCORP***
 * Researching network security infrastructure and risk management techniques
 * Deploying and testing SIEM (IBM QRadar)
+
 
 ## Notable Work
 
