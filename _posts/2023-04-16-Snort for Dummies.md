@@ -1,8 +1,8 @@
 ---
-title: Exploring Snort
+title: Snort for Dummies!
 date: 2023-04-16 03:43:00 +0500
 categories: [Blogs, Network Security]
-tags: [network security, intrusion detection, idps, ids, insider threats, attacks, cyber defense]
+tags: [network security, intrusion detection, idps, ids, insider threats, attacks, cyber defense, for dummies]
 ---
 
 ## What is Snort?

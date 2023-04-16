@@ -1,8 +1,8 @@
 ---
-title: Exploring OpenSSL
+title: OpenSSL for Dummies!
 date: 2023-04-16 02:00:00 +0500
 categories: [Blogs, Network Security]
-tags: [network security, openssl, ssl, encryption, decryption, secure communication, cryptography]
+tags: [network security, openssl, ssl, encryption, decryption, secure communication, cryptography, for dummies]
 ---
 
 ## What is OpenSSL?
