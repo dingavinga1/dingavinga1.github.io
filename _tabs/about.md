@@ -10,8 +10,9 @@ and the Cloud.
 ![https://www.flaticon.com/free-icons/web-protection](/assets/img/about/random.png)
 
 ## Certifications
-* eLearn Security Junior Penetration Tester (eJPT)
-* INE Certified Cloud Associate (ICCA)
+* [Microsoft Certified: Azure Fundamentals (AZ-900)](https://www.credly.com/badges/26b05b72-592a-4300-9f95-b55dddfb54e0/public_url)
+* [eLearn Security Junior Penetration Tester (eJPT)](https://my.ine.com/certificate/5bbf8595-19f8-4ef1-ba4c-781a16278e9c)
+* [INE Certified Cloud Associate (ICCA)](https://my.ine.com/certificate/65aeecae-9c00-4eaf-93b6-9f8271842d18)
 * SAP Cybersecurity Engineering Virtual Internship
 * Google IT Support (In Progress)
 
