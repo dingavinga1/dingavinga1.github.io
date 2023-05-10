@@ -199,26 +199,7 @@ Navigate to the NextCloud directory in your file explorer and you will be able t
 
 ![](/assets/NextCloud/pc/9.png)
 
-## Task 5. Creating a test user for Sir/TA
-
-Go to the NextCloud web interface and log in as an administrator. Click on the user icon in the top-right of the portal.
-
-![](/assets/NextCloud/6.png)
-
-Click on "Users".
-
-![](/assets/NextCloud/7.png)
-
-Click on "New User".
-
-![](/assets/NextCloud/8.png)
-
-Finally, set the login and personal details for the new user and click on "Add a new user". Now, the new user will be able to login with their credentials.<br/><br/>
-Test credentials for checking purposes are as follows:
-- **Email**: ```mudassar.aslam@nu.edu.pk```
-- **Password**: ```AbdullahIrfan```
-
-![](/assets/NextCloud/9.png)
+Now, you can start adding users and expand your cloud!
 
 ## Conclusion
 NextCloud is probably one of the best choices for setting up private cloud storage for your organization and even personal use. It provides built-in features such as identity and access management, data seperation and more. Keep all your important data stored on a central server and access it anywhere in the world, on any device.
