@@ -14,7 +14,7 @@ and the Cloud.
 * [eLearn Security Junior Penetration Tester (eJPT)](https://my.ine.com/certificate/5bbf8595-19f8-4ef1-ba4c-781a16278e9c)
 * [INE Certified Cloud Associate (ICCA)](https://my.ine.com/certificate/65aeecae-9c00-4eaf-93b6-9f8271842d18)
 * SAP Cybersecurity Engineering Virtual Internship
-* Google IT Support (In Progress)
+* [Google IT Support](https://www.coursera.org/account/accomplishments/specialization/certificate/MW97R9ZDE923)
 
 ## Achievements 
 * Winner - NasCon'23 Cyber Security Quiz Competition
