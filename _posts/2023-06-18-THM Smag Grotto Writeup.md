@@ -176,7 +176,7 @@ I generate a new ssh key pair using ```ssh-keygen```
 
 ![ssh keygen](/assets/THM-Smag/11.png)
 
-After that, I copy the contents of the ```id_rsa.pub`` file created and overwrite the ```jake_id_rsa.pub.backup``` file with the copied contents. 
+After that, I copy the contents of the ```id_rsa.pub``` file created and overwrite the ```jake_id_rsa.pub.backup``` file with the copied contents. 
 
 ```bash
 www-data@smag:/home/jake$ cd /opt/.backups
