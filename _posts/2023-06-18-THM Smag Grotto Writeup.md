@@ -1,8 +1,8 @@
 ---
-title: [THM] Smag Grotto Writeup
+title: THM - Smag Grotto Writeup
 date: 2023-06-18 02:00:00 +0500
 categories: [Writeups, TryHackMe]
-tags: [CTF, Tryhackme, Pentesting, Cyber Security, Penetration Testing]
+tags: [ctf, tryhackme, pentesting, cyber security, penetration testing]
 ---
 
 - **Room Name:** Smag Grotto
