@@ -48,13 +48,17 @@ and the Cloud.
 
 ## Notable Work
 
+### [دفاعی](https://github.com/dingavinga1/diffai)
+An artificially intelligent web application intrusion detection system
+<!--![Diffai](https://github.com/dingavinga1/diffai/raw/main/assets/initial_console.png)-->
+
 ### [Innocent Shell](https://github.com/huzaifi0604/Innocent-Shell/)
 Obfuscated reverse shell payload generator and reverse TCP listener
-![Innocent Shell](https://github.com/huzaifi0604/Innocent-Shell/raw/main/ScreenCaptures/Screenshot_10.png)
+<!--![Innocent Shell](https://github.com/huzaifi0604/Innocent-Shell/raw/main/ScreenCaptures/Screenshot_10.png)-->
 
 ### [Spellbound](https://github.com/dingavinga1/spellbound/)
 Botnet framework with a payload generator and C2 Server
-![Spellbound](https://user-images.githubusercontent.com/88616338/221417940-74bbffa4-9a20-49d2-8f93-36de576d167e.jpg)
+<!--![Spellbound](https://user-images.githubusercontent.com/88616338/221417940-74bbffa4-9a20-49d2-8f93-36de576d167e.jpg)-->
 
 ### [AES-256](https://github.com/dingavinga1/aes-256)
 Pure python-based implementation of the AES 256 algorithm for file encryption
@@ -67,17 +71,17 @@ Analysis report for 5 different samples of malware (static and dynamic)
 
 ### [Sorting Visualizer](https://github.com/dingavinga1/sorting-visualizer)
 Web application for visualizing 9 different sorting algorithms
-![Sorting Visualizer](https://user-images.githubusercontent.com/88616338/232252455-e997bc16-a693-4e09-8018-b8f6d0df236a.jpg)
+<!--![Sorting Visualizer](https://user-images.githubusercontent.com/88616338/232252455-e997bc16-a693-4e09-8018-b8f6d0df236a.jpg)-->
 
 ### [Spark Kernel](https://github.com/dingavinga1/os-kernel-c)
 Model of an operating system kernel using a multithreaded approach to handle processes
-![Spark Kernel](https://user-images.githubusercontent.com/88616338/182545060-639ce6d2-0282-43d6-8098-bda5b7afbef7.jpg)
+<!--![Spark Kernel](https://user-images.githubusercontent.com/88616338/182545060-639ce6d2-0282-43d6-8098-bda5b7afbef7.jpg)-->
 
 
 ### [DebitHub](https://github.com/dingavinga1/debithub)
 Full-stack digital banking mobile application based on React Native and Firebase
-<img src="https://user-images.githubusercontent.com/88616338/182552544-caacc430-3d43-43d1-80f8-72fc28e47df2.jpeg" width="30%"/>
+<!--<img src="https://user-images.githubusercontent.com/88616338/182552544-caacc430-3d43-43d1-80f8-72fc28e47df2.jpeg" width="30%"/>-->
 
 ### [Arcade Candy Crush](https://github.com/dingavinga1/16-bit-candy-crush)
 Multi-level implementation of "Candy Crush" in 16-bit Assembly Language (MASM)
-![CandyCrush](https://user-images.githubusercontent.com/88616338/182585585-c3940289-14b3-49e8-96ef-180041403479.png)
+<!--![CandyCrush](https://user-images.githubusercontent.com/88616338/182585585-c3940289-14b3-49e8-96ef-180041403479.png)-->
