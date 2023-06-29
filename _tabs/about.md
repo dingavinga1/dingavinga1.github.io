@@ -25,9 +25,12 @@ and the Cloud.
 **Penetration Testing | Cloud Computing | Digital Forensics | Information Security | Network Security | Malware Analysis | Backend Development | Reverse Engineering | Cryptography**
 
 ## Work Experience 
-### **Mobile Forensics Intern** at ***Confidential***
+### **Mobile Forensics Intern** at ***National Centre for Cyber Security***
 * Researching various mobile device acquisition techniques
-* Designing and developing a complete forensics suite
+* Designing and developing a complete forensics suite (Flask, Python)
+* Researching information gathering and enumeration techniques
+* Developing modules for vulnerability assessment platform
+* Research on different controls part of the ISO 27001 framework
 
 ### **Red Team Trainer** at ***Cyberspace Legion***
 * Training students new to the field of cyber security for red teaming practices
