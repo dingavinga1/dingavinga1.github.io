@@ -25,7 +25,7 @@ and the Cloud.
 **Penetration Testing | Cloud Computing | Digital Forensics | Information Security | Network Security | Malware Analysis | Backend Development | Reverse Engineering | Cryptography**
 
 ## Work Experience 
-### **Mobile Forensics Intern** at ***National Centre for Cyber Security***
+### **Intern** at ***National Centre for Cyber Security***
 * Researching various mobile device acquisition techniques
 * Designing and developing a complete forensics suite (Flask, Python)
 * Researching information gathering and enumeration techniques
