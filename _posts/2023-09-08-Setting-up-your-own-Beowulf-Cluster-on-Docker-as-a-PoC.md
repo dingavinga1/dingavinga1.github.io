@@ -135,7 +135,7 @@ The ```cluster.sh``` file is basically a startup script provided to us so that w
 ### Basic Architecture
 The master gets a specific task and splits it into multiple tasks/divides a task into parts and divides the workload among ```n``` number of workers (in this case n=3)
 
-![Architecture](architecture.gif)
+![Architecture](/assets/Cluster-setup/architecture.gif)
 
 ## Conclusion
 Even though this tutorial is just a PoC and works on a single host while emulating a cluster, it gives us the fundamental understand of how a distributed computing setup is achieved. ```alpine-mpich``` also supports [Multi-host Orchestration](https://github.com/NLKNguyen/alpine-mpich/wiki/Multi-Host-Orchestration). Anyway, knowing how to setup a cluster is absolutely essential for every computer scientist out there as distributed computing helps save time and make the impossible possible! 
