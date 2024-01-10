@@ -119,7 +119,7 @@ In short, you need to define function prototypes in each interface (Files starti
 
 There are 3 [Service Lifetimes](https://endjin.com/blog/2022/09/service-lifetimes-in-aspnet-core) in .NET Core. Here is how we can use `AddTransient` to inject our repository and service in our DI container: 
 
-```C#
+```cs
 // Project.Application/DependencyInjection.cs
 
 ...
@@ -130,7 +130,7 @@ public static IServiceCollection InjectServices(this IServiceCollection services
 ...
 ```
 
-```C#
+```cs
 // Project.Framework/Program.cs
 
 ...
@@ -138,7 +138,7 @@ builder.Services.InjectServices();
 ...
 ```
 
-```C#
+```cs
 // Project.Application/Repositories/ICompanyRepository.cs
 
 public interface ICompanyRepository {
@@ -148,7 +148,7 @@ public interface ICompanyRepository {
 
 That's it! Now you can use your repository in your service through constructor dependency injection. All you have to do in your service is:
 
-```C#
+```cs
 // Project.Application/Contracts/CompanyService.cs
 
 public class CompanyService: ICompanyService {
@@ -169,7 +169,7 @@ Of course, as good modern-day developers, we don't want to spend time on manuall
 
 Instead of writing `db.ExecuteNonQuery("SELECT * FROM companies;")`, you can just write `db.Companies`. This is because EFCore gives you all the low-level querying functions pre-built. Not only that, but you can combine [LINQ](https://learn.microsoft.com/en-us/dotnet/csharp/linq/) with EFCore to get the SQL feel without actually writing any SQL. eg. 
 
-```C#
+```cs
 from company in companies
 select company;
 ```
@@ -179,7 +179,7 @@ I will not be getting into the entire API reference provided by EFCore but I wil
 #### Setup 
 To set up EF Core, we need an entity, a "Database Context" and dependency injection.
 
-```C#
+```cs
 // Project.Domain/Entities/Company.cs
 
 public class Company {
@@ -191,7 +191,7 @@ public class Company {
 }
 ```
 
-```C#
+```cs
 // Project.Infrastructure/ApplicationDbContext.cs
 
 public class ApplicationDbContext: DbContext {
@@ -207,7 +207,7 @@ public class ApplicationDbContext: DbContext {
 }
 ```
 
-```C#
+```cs
 // Project.Infrastructure/DependencyInjection.cs
 
 ...
@@ -218,7 +218,7 @@ public static IServiceCollection InjectDatabase(this IServiceCollection services
 ...
 ```
 
-```C#
+```cs
 // Project.Framework/Program.cs
 
 ...
@@ -241,7 +241,7 @@ Congratulations! Your database will now have a "Company" table with attributes m
 
 We have everything setup and now it's time to implement our Company Repository.
 
-```C#
+```cs
 // Program.Infrastructure/Repositories/CompanyRepository.cs
 
 public class CompanyRepository: ICompanyRepository {
@@ -263,7 +263,7 @@ public class CompanyRepository: ICompanyRepository {
 ### Creating a Controller
 You might be wondering where our REST API is. Don't worry, I will show you how to do that as well. Let's create a CompanyController now!
 
-```C#
+```cs
 // Project.Framework/Controllers/CompanyController.cs
 
 [Route("api/[controller]")]
