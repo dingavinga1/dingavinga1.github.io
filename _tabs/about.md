@@ -4,8 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Cyber security junior with a passion for Digital Forensics, Penetration Testing, Network Security 
-and the Cloud.
+Cyber security enthusiast and experienced software engineer
 
 ![https://www.flaticon.com/free-icons/web-protection](/assets/img/about/random.png)
 
@@ -17,15 +16,23 @@ and the Cloud.
 * [Google IT Support](https://www.coursera.org/account/accomplishments/specialization/certificate/MW97R9ZDE923)
 
 ## Achievements 
+* Winner - Ignite National Cyber Hackathon '23 Regional Round
 * Winner - NasCon'23 Cyber Security Quiz Competition
 * Winner - CyberFest CTF '23
 * Bronze Medalist - ICPC '22
 
 ## Expertise
-**Penetration Testing | Cloud Computing | Digital Forensics | Information Security | Network Security | Malware Analysis | Backend Development | Reverse Engineering | Cryptography**
+**Software Engineering | Penetration Testing | Digital Forensics | Information Security | Network Security**
 
 ## Work Experience 
-### **Intern** at ***National Centre for Cyber Security***
+
+### **Trainee Software Engineer** at [***Folio3 Software***](https://folio3.com) **(Current)**
+* Designed and developed the frontend for an admin panel (ReactJS, Typescript, TailwindCSS)
+* Refactored entire frontend in a production environment to increase client-side efficiency and code readability by 10% (ReactJS, Ant Design, VanillaJS)
+* Migrated APIs from Python to NestJS to unify codebase (NestJS, TypeORM, MySQL)
+* Developed an entire backend for an application with .NET 8 Web API following SOLID principles and Clean Architecture (EF Core, Identity, Hangfire, Tests)
+
+### **Intern** at [***National Centre for Cyber Security***](https://nccs.pk)
 * Researching various mobile device acquisition techniques
 * Designing and developing a complete forensics suite (Flask, Python)
 * Researching information gathering and enumeration techniques
@@ -44,7 +51,7 @@ and the Cloud.
 * Organizing a national-level cyber security event
 * Designing and deploying challenges of various categories
 
-### **Cyber Defense and Network Security Intern** at ***THINCSCORP***
+### **Cyber Defense and Network Security Intern** at [***THINCSCORP***](https://thincscorp.com)
 * Researching network security infrastructure and risk management techniques
 * Deploying and testing SIEM (IBM QRadar)
 
