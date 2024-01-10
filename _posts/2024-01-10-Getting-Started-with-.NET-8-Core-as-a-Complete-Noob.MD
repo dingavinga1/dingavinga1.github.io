@@ -38,7 +38,7 @@ With no single tutorial to follow and experience with Google Dorking, I set off 
 This is the Wikipedia definition for [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection). But what is it really? Basically, a particular service is initialized globally and "injected" into any service dependant on it. This pattern leads to looser coupling between the two services which, in turn, improves readability and maintainability. Dependency injection will be more clear in the [Respository Pattern](#repository-pattern) section of our roadmap.
 
 ### Clean Architecture
-![Clean Architecture](../assets/Dot-Net-Getting-Started/clean-architecture.png)
+![Clean Architecture](/assets/Dot-Net-Getting-Started/clean-architecture.png)
 
 If you're new to .NET development, you might have seen this diagram somewhere. Don't worry if it gets confusing because it's really not. The .NET way of following the "Separation of Concerns" principle is not to create separate folders but to create separate projects entirely. I know, it's confusing and you might be thinking "What??? 🤬". But hey, it's really not as complicated as it sounds. At the end of your initial project setup, you'll be able to navigate through those projects as though they are folders. For that, however, I'll need your attention for a few basic principles: 
 
@@ -77,13 +77,13 @@ If you couldn't guess,
 I used the word "use" in the above definitions. How does each object use another? This is where Dependency Injection comes into play. First, you have to provide add inner-layer projects to each outer-layer project's references. To do that, we can do the following:
 
 - Right click on your project in the "Solution Explorer"<br/>
-    ![step1](../assets/Dot-Net-Getting-Started/di-p1.png)
+    ![step1](/assets/Dot-Net-Getting-Started/di-p1.png)
 
 - Navigate to `Add > Project Reference`<br/>
-    ![step2](../assets/Dot-Net-Getting-Started/di-p2.png)
+    ![step2](/assets/Dot-Net-Getting-Started/di-p2.png)
 
 - Tick all inner-layer projects<br/>
-    ![step3](../assets/Dot-Net-Getting-Started/di-p3.png)
+    ![step3](/assets/Dot-Net-Getting-Started/di-p3.png)
 
 Finally, repeat this process for each outer-layer project.
 
