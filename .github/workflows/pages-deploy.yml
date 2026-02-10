@@ -13,21 +13,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout your repo
       - uses: actions/checkout@v4
 
+      # 2️⃣ Setup Ruby
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.2
           bundler-cache: true
 
+      # 3️⃣ Install Jekyll dependencies
+      - name: Install dependencies
+        run: bundle install
+
+      # 4️⃣ Build site into _site
       - name: Build site
-        run: |
-          bundle exec jekyll build -d _site
+        run: bundle exec jekyll build -d _site
         env:
           JEKYLL_ENV: production
 
+      # 5️⃣ Deploy to gh-pages branch automatically
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: _site
+          # Optional: keep your commit history clean
+          # commit_message: "Automated site update [skip ci]"
