@@ -19,7 +19,7 @@ When we ask ChatGPT a question, it responds almost instantaneously. Right? This 
 
 In a usual request-response scenario, we'd invoke an LLM using an AWS Lambda function with proxy integration with Amazon API Gateway.
 
-![Ideal Architecture](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/ideal-architecture.png)
+![Ideal Architecture](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/ideal-architecture.png?raw=true)
 
 This way, we'd be able to make an HTTP request to an endpoint and receive a response, and it'd be quite the cost-effective solution. However, the problem with this architecture is the `29s` timeout in Amazon API Gateway. When invoking agents, this timeout is often hit, resulting in a bad user experience and loss of data. If you want Amazon Bedrock and AWS Lambda to be a constant in a similar scenario, web sockets are the answer. 
 
@@ -69,7 +69,7 @@ That's not it for the Lambda function. We need to assign permissions for:
 
 The Lambda execution role should look something like this:
 
-![Lambda role](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/lambda-permissions.png)
+![Lambda role](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/lambda-permissions.png?raw=true)
 
 The `AmazonAPIGatewayInvokeFullAccess` policy is an AWS-managed policy that allows management and invocation of the API Gateway service. `BedrockInvokeAgent` is a policy I created to allow the Lambda function to invoke our Bedrock agent, and it looks like this:
 
@@ -92,30 +92,30 @@ With these permissions being set, our Lambda function is ready for invocation.
 
 Now, we need to create an API that allows web socket connections via Amazon API Gateway. To do this, we can go to the AWS Management Console, navigate to the Amazon API Gateway service console and click on `Create API`. Now, we can select the `Websocket API` option from the list and click on `Build`.
 
-![Websocket Option](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/web-socket-option.png)
+![Websocket Option](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/web-socket-option.png?raw=true)
 
 Then, we can give our API a name and use the default action.
 
-![API Details](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-details.png)
+![API Details](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-details.png?raw=true)
 
 Next up, we need to add all 3 pre-defined routes to our API (`$connect`, `$disconnect` and `$default`).
 
-![API Routes](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-routes.png)
+![API Routes](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-routes.png?raw=true)
 
 Then, we need to assign our previously created Lambda function as an integration for all three routes.
 
-![API Integrations](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-integrations.png)
+![API Integrations](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-integrations.png?raw=true)
 
 Finally, we can create a stage for our API and finalize the creation.
 
 ## Testing
 Once we're done with the setup, we can navigate to the `Stages` section of our newly created API and copy the websocket URL.
 
-![API Stage](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-stage.png)
+![API Stage](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/api-stage.png?raw=true)
 
 We can use the `wscat` tool to test our API out.
 
-![Wscat](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/wscat.png)
+![Wscat](https://github.com/abdullahirfann/apigateway-websocket-integration/blob/main/assets/wscat.png?raw=true)
 
 Now we know that our setup works, and we can go ahead and integrate this with our frontend to allow our users to communicate with the agent, without facing any timeout errors!
 
